@@ -33,6 +33,7 @@
   width: 36vw;
   height: 18vh;
   clip-path: circle();
+  border-radius: 50%;
   border: 3px solid $blue;
   margin-bottom: 1vh;
   z-index: 2;
@@ -57,6 +58,7 @@
   color: #021E73;
   display: flex;
   justify-content: center;
+  margin-bottom: -1vh;
 }
 
 .leaf-right{
@@ -113,7 +115,7 @@ form {
 .button-leaf {
   width: 11vw;
   height: 4vh;
-  top: 35vh;
+  top: 34vh;
   right: 23vw;
   position: absolute;
 }

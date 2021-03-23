@@ -22,7 +22,9 @@
           <option disabled hidden selected>Trier par tag</option>
             <option>Tout(e)s</option>
             <% Article::CATEGORIES.sort.each do |cat| %>
-              <option><%= cat %></option>
+              <option>cat</option>
+              <% link_to "filter?categorie= #{cat}" do %>  
+            <% end %>
             <% end %>
         </select>
         <div class="select-tag">
