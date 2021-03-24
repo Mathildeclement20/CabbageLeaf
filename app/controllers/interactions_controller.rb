@@ -1,5 +1,5 @@
 class InteractionsController < ApplicationController
-  before_action :get_article, only: [:create, :like, :read_later]
+  before_action :get_article, only: [:read, :like, :read_later]
 
   def read_later
     interaction = current_user.find_interaction(@article)
